@@ -80,9 +80,11 @@ Create an unversioned app in Studio Pro:
 
 {{< figure src="/attachments/howto/collaboration-requirements-management/on-premises-howto/on-premises-git-howto/app-settings.png" alt="App Settings dialog" >}}
 
+### 4.4 Uploading the app {#upload-app}
+
 Once the app is created, you can upload it to your private Git repository. For more information on how to upload it, see the [Uploading to the Private Git Server](#upload-to-private-git-server) section below.
 
-### 4.4 Downloading from a Private Repository
+### 4.5 Downloading from a Private Repository
 
 Now that you have a Git app on your server, you can download it to another directory or one of your team members can download it on their machine. Follow the steps below:
 
@@ -104,19 +106,19 @@ Now that you have a Git app on your server, you can download it to another direc
 
 The app is downloaded and ready to be used with version control.
 
-### 4.5 Opening the Existing Git App
+### 4.6 Opening the Existing Git App
 
 There are a few ways to open a Git Mendix app, as long as you have Studio Pro [Git support activated](#preparing-git-support).
 
-#### 4.5.1 Recent Apps List
+#### 4.6.1 Recent Apps List
 
 In your **Recent Apps** list, you can click the app name and the app will open.
 
-#### 4.5.2 Recent Apps Menu
+#### 4.6.2 Recent Apps Menu
 
 Under **File** > **Recent Apps**, you can select the app and open it.
 
-#### 4.5.3 Open App Form
+#### 4.6.3 Open App Form
 
 The **Open App** form is accessible from two different places:
 * **Open App** button on the **My Apps** tab
@@ -139,7 +141,7 @@ For the previous local disk method do the following:
 2. In a file browser dialog box, browse to the directory containing your app and double-click the *.mpr* file (or select it and click **Open**):
 
 	{{< figure src="/attachments/howto/collaboration-requirements-management/on-premises-howto/on-premises-git-howto/open-app-select-file.png" alt="Open App Select File" >}}
-### 4.6 Uploading to the Private Git Server {#upload-to-private-git-server}
+### 4.7 Uploading to the Private Git Server {#upload-to-private-git-server}
 
 Once you have an unversioned app, you can upload it to your private team server. 
 
@@ -165,7 +167,7 @@ The app is uploaded successfully. You can check on your private server and see t
 
 {{< figure src="/attachments/howto/collaboration-requirements-management/on-premises-howto/on-premises-git-howto/project-uploaded-confirmation.png" alt="App Uploaded confirmation window" >}}
 
-### 4.7 Moving a Subversion App to Git
+### 4.8 Moving a Subversion App to Git
 
 If you already have an existing versioned app (with Subversion) that you would like to upload to your Git private server instead, you can export it, then re-import it, and uploading it to your server. Follow the steps below:
 
